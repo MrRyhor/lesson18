@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:regular,700');
+
+body {
+    font-family: 'Lato';
+    background-color: #00a1a3;
+    background-image: linear-gradient(to right, #005083, #23704e);
+}
+
+.title {
+    padding-top: 100px;
+}
+
+h1 {
+    display: block;
+    max-width: 170px;
+    margin: 0 auto;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(251, 255, 26);
+    font-weight: 700;
+}
+
+p {
+    padding-top: 5px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    max-width: 1000px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+label {
+    color: rgb(251, 255, 26);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 1);
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.transport {
+    margin-top: 10px;
+}
+
+.food {
+    margin-top: 60px;
+}
+
+.guide {
+    margin-top: 20px;
+}
+.button{
+    margin-top: 20px;
+}
+button {
+    width: 200px;
+    padding: 5px 10px;
+    background-color: rgb(251, 255, 26);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+#result{
+    margin-top: 10px;
+        color: rgb(255, 82, 82);
+        text-transform: uppercase;
+        font-size: 32px;
+        font-weight: 700;
+        text-shadow: 2px 2px 4px #000;
+}

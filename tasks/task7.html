@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task nr. 7</title>
+    <link rel="stylesheet" href="css/style7.css" type="text/css">
+</head>
+
+<body>
+    <div class="title">
+        <h1>Task nr. 7</h1>
+        <p>Подорож складається з 3 етапів. На кожному етапі користувач може вибрати один з видів транспорту (авто,
+            автобус, літак -
+            випадаючий список), харчування (сніданок, обід, вечеря – checkbоx) та одного з 3-х гідів(використати - radio
+            buttons).
+            Ціни визначте самі. Підрахувати загальну вартість.</p>
+    </div>
+    <div id="container" class="container">
+        <div class="transport">
+            <select id="transport">
+                <option value="200">Авто</option>
+                <option value="160">Автобус</option>
+                <option value="180">Самолёт</option>
+            </select>
+        </div>
+        <div class="food">
+            <label>
+                Breakfast
+                <input type="checkbox" value="15">
+            </label>
+            <label>
+                Lunch
+                <input type="checkbox" value="20">
+            </label>
+            <label>
+                Dinner
+                <input type="checkbox" value="25">
+            </label>
+        </div>
+        <div class="guide">
+            <label>
+                Guide 1
+                <input type="radio" value="15">
+            </label>
+            <label>
+                Guide 2
+                <input type="radio" value="20">
+            </label>
+            <label>
+                Guide 3
+                <input type="radio" value="25">
+            </label>
+        </div>
+        <div class="button">
+            <button>Get sum</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="js/script7.js"></script>
+</body>
+
+</html>
