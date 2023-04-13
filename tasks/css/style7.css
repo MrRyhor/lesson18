@@ -70,6 +70,11 @@ button {
     font-weight: 700;
     border-radius: 5px;
     text-transform: uppercase;
+    transition: 0.5s;
+}
+button:hover {
+    background: rgb(166, 167, 67);
+    border-radius: 1px solid rgb(251, 255, 26);
 }
 #result{
     margin-top: 10px;
@@ -78,4 +83,8 @@ button {
         font-size: 32px;
         font-weight: 700;
         text-shadow: 2px 2px 4px #000;
+}
+#transport{
+    width: 200px;
+    padding: 7px 10px;
 }
