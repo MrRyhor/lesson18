@@ -30,17 +30,21 @@ p {
     font-size: 20px;
     font-weight: 400;
 }
+
 .res {
     display: flex;
     text-align: center;
     justify-content: center;
     padding-top: 40px;
 }
+
 .table {
-    border: 2px solid #fff;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 .td {
     color: rgb(251, 255, 26);
-    padding: 10px;    
+    padding: 10px;
     border: 0.5px solid #fff;
 }
