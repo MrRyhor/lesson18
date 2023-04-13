@@ -4,22 +4,14 @@ function getRandomWish() {
     return wishList[randomIndex]
 }
 
-let div1 = document.createElement('div')
-div1.setAttribute('class', 'div')
-let wish1 = getRandomWish()
-div1.innerHTML = wish1
-const title = document.querySelector('.title')
-title.after(div1)
+function getTreeDivWithRandomWish(val) {
+    for (let i = 0; i < val; i++) {
+        let div = document.createElement('div')
+        div.setAttribute('id', 'div')
+        let wish = getRandomWish()
+        div.innerHTML = wish
+        title.after(div)
+    }
+}
 
-let div2 = document.createElement('div')
-div2.setAttribute('class', 'div')
-let wish2 = getRandomWish()
-div2.innerHTML = wish2
-title.after(div2)
-
-let div3 = document.createElement('div')
-div3.setAttribute('class', 'div')
-let wish3 = getRandomWish()
-div3.innerHTML = wish3
-title.after(div3)
-
+getTreeDivWithRandomWish(3)

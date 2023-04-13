@@ -8,8 +8,9 @@ function createInputs() {
         inputs.setAttribute('placeholder', '0')
         inputs.setAttribute('class', 'inp')
         scores.append(inputs)
-    }
+    }    
 }
+
 function getAverageScore() {
     let inputsQnt = parseInt(document.getElementById('in').value)
     let averageScore = 0
@@ -21,7 +22,6 @@ function getAverageScore() {
     averageScore += inputsValue / inputsQnt
     sum.innerHTML = `Average Score = ${averageScore.toFixed(2)}`
 }
-
 
 window.onload = function () {
     document.getElementById('btn1').onclick = createInputs

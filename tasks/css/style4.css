@@ -6,7 +6,7 @@ body {
     background-image: linear-gradient(to right, #005083, #23704e);
 }
 
-.title {
+#title {
     padding-top: 100px;
 }
 
@@ -31,7 +31,7 @@ p {
     font-weight: 400;
 }
 
-.div {
+#div {
     padding-top: 30px;
     width: 1000px;
     margin: 0 auto;
